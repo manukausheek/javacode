@@ -1,0 +1,41 @@
+body { 
+margin: 0;
+padding: 0;
+}
+
+#container1{
+width: 960px;
+margin: 0 auto:
+}
+
+  #container2{
+width: 960px;
+margin: 0 auto:
+}
+  #container3{
+width: 960px;
+margin: 0 auto:
+}
+.table1 {
+width: 450px;
+float: left;
+background-color: none;
+  margin: 10px;
+  border: 10px solid blue;
+}
+
+.table2 {
+width: 450px;
+float: left;
+background-color: none;
+  margin: 10px;
+  
+}
+
+  .table3 {
+width: 450px;
+float: left;
+background-color: none;
+  margin: 10px;
+  
+}
