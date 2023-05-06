@@ -6,7 +6,10 @@ var request = new XMLHttpRequest();
 				var data = JSON.parse(request.responseText);
 				var posts = data.feed.entry;
 
+				var sitemap = document.getElementById('sitemapone');
 				var sitemap = document.getElementById('sitemaptwo');
+				var sitemap = document.getElementById('sitemapthree');
+				var sitemap = document.getElementById('sitemapfour');
 
 				for (var i = 0; i < posts.length; i++) {
 					var title = posts[i].title.$t;
